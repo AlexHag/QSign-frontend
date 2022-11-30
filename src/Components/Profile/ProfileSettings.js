@@ -1,6 +1,6 @@
 import './ProfileSettings.css';
 import { useNavigate } from "react-router-dom";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import Header from "../Header/Header";
 import Popup from "reactjs-popup";
 import "../Documents/DocumentInfo.css";

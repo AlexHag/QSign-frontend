@@ -1,11 +1,10 @@
 import { useAuth0 } from "@auth0/auth0-react";
 import React from "react";
-import { useEffect } from "react";
 import Loading from "../../Assets/Loading/Loading";
 import { useNavigate } from "react-router-dom";
 
 const AuthLoading = (props) => {
-  const { user, isAuthenticated, isLoading } = useAuth0();
+  const { user, isAuthenticated } = useAuth0();
   const navigate = useNavigate();
 
   if (isAuthenticated) {

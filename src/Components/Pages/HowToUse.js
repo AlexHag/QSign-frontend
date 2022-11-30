@@ -68,7 +68,7 @@ function HowToUse(props) {
                 <br />
                 <br />
                 <div className="center-image">
-                <img src={fileStructureImage}/>
+                <img src={fileStructureImage} alt="File structure"/>
                 </div>
                 <br />
                 <br />

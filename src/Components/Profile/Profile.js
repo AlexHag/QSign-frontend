@@ -3,10 +3,8 @@ import "./Profile.css";
 import { useNavigate } from "react-router-dom";
 import Header from "../Header/Header";
 import { Link } from "react-scroll";
-import ProfileSettings from "./ProfileSettings";
 import Popup from "reactjs-popup";
 import "reactjs-popup/dist/index.css";
-import { render } from "react-dom";
 import { AiFillCheckCircle } from "react-icons/ai";
 
 function Profile(props) {
@@ -115,7 +113,7 @@ function Profile(props) {
     return fileInvitesList.map((p) => (
       <div className="file-list-item-toSign">
         <b>Status: </b>
-        {p.isSigned.toString() == "true" ? (
+        {p.isSigned.toString() === "true" ? (
           <b style={{ color: "green" }}>
             Signed <AiFillCheckCircle scale={1.5} />
           </b>

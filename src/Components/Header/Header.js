@@ -1,11 +1,8 @@
-import { NavLink, useNavigate } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { useState } from "react";
 import './Header.css'
 import {GiHamburgerMenu} from "react-icons/gi";
 import {VscClose} from "react-icons/vsc";
-import {AiOutlineHome} from "react-icons/ai";
-import LoginButton from "../Authentication/AuthComponents/LoginAuth";
-import LogoutButton from "../Authentication/AuthComponents/LogoutAuth";
 import { useAuth0 } from "@auth0/auth0-react";
 
 function Header(props) {
@@ -59,8 +56,7 @@ const Icon = () => {
 
 function Loginheader(props) {
 
-  const navigate = useNavigate();
-  const { logout, isAuthenticated } = useAuth0();
+  const { logout } = useAuth0();
   
   const handleLogout = async () => {
     props.setIsLoggedIn(false);

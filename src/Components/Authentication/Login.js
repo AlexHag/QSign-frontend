@@ -2,12 +2,10 @@ import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import LogInHeader from "./LogInHeader";
 import "./form.css";
-import validator from "validator";
-import LoginButton from "../Authentication/AuthComponents/LoginAuth";
 import { useAuth0 } from "@auth0/auth0-react";
 
 const Login = (props) => {
-  const { loginWithRedirect, isAuthenticated } = useAuth0();
+  const { loginWithRedirect } = useAuth0();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");

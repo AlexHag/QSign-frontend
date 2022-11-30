@@ -1,10 +1,9 @@
 import './App.css';
 import {useState, useEffect } from 'react';
-import {Route, Routes, Link, Navigate, useNavigate} from 'react-router-dom';
+import {Route, Routes} from 'react-router-dom';
 import Login from './Components/Authentication/Login';
 import Signup from './Components/Authentication/Signup';
 import Home from './Components/Home/Home';
-import Header from './Components/Header/Header';
 import Profile from './Components/Profile/Profile';
 import DocumentInfo from './Components/Documents/DocumentInfo';
 import AboutUs from './Components/Pages/AboutUs';

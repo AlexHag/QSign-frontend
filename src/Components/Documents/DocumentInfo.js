@@ -1,19 +1,15 @@
 import { useParams, useNavigate } from "react-router-dom";
 import { useState, useEffect } from "react";
-import FileViewer from "react-file-viewer";
 import "./DocumentInfo.css";
 import Header from "../Header/Header";
 import Popup from "reactjs-popup";
 import "reactjs-popup/dist/index.css";
 import {VscClose} from "react-icons/vsc";
-import {GrView} from 'react-icons/gr'
-import { BsFillArrowDownCircleFill } from 'react-icons/bs'
 
 function DocumentInfo(props) {
   let { id } = useParams();
   const [docInfo, setDocInfo] = useState([]);
   const [pubUserInfo, setPubUserInfo] = useState([]);
-  const [fileType, setFileType] = useState("");
   const [sigInfo, setSigInfo] = useState([]);
   const [copySuccess, setCopySuccess] = useState('');
 
@@ -22,8 +18,6 @@ function DocumentInfo(props) {
       .then((p) => p.json())
       .then((p) => {
         setDocInfo(p);
-        let tempArr = p.filename.split(".");
-        setFileType(tempArr[tempArr.length - 1]);
 
         fetch(`https://qsignapi.azurewebsites.net/GetUserPublicInfo/${p.issuerPublicId}`)
           .then((p) => p.json())
