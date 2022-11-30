@@ -38,9 +38,6 @@ const Icon = () => {
             <NavLink to="/AboutUs">About Us</NavLink>
           </li>
           <li>
-            <NavLink to="/HowToUse">How To Use</NavLink>
-          </li>
-          <li>
             <NavLink to="/Tech">Tech</NavLink>
           </li>
           {Loginheader(props)}

@@ -35,7 +35,7 @@ function HowToUse(props) {
           <section className="howtouse-text">
             <article>
              <h2><VscClose className="howtouse-back-btn" onClick={handleBack}></VscClose></h2>
-              <h2>How To Use</h2>
+              <h2>How to verify a signature</h2>
               <br />
               <p className="tutorial">
                 This tutorial will explain how to verify a digital signature

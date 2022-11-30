@@ -54,7 +54,7 @@ function App() {
         <Route path='/Document/:id' element={<DocumentInfo userInfo={userInfo} setUserInfo={setUserInfo} isLoggedIn={isLoggedIn} setIsLoggedIn={setIsLoggedIn}/>}></Route>
         <Route path='/AboutUs' element={<AboutUs userInfo={userInfo} isLoggedIn={isLoggedIn}/>}></Route>
         <Route path='/Tech' element={<Tech userInfo={userInfo} isLoggedIn={isLoggedIn}/>}></Route>
-        <Route path='/HowToUse' element={<HowToUse userInfo={userInfo} isLoggedIn={isLoggedIn}/>}></Route>
+        <Route path='/HowToVerifySignature' element={<HowToUse userInfo={userInfo} isLoggedIn={isLoggedIn}/>}></Route>
         <Route path='/ProfileSettings' element={<ProfileSettings userInfo={userInfo} isLoggedIn={isLoggedIn}/>}></Route>
         <Route path='/Auth' element={<Profilen />}></Route>
         <Route path='/AuthLoading' element={<AuthLoading setUserInfo={setUserInfo} setIsLoggedIn={setIsLoggedIn}/>}></Route>

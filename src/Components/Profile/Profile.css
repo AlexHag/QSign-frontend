@@ -260,7 +260,7 @@ input::file-selector-button {
 
 @media (max-width: 600px) {
   .profile-all {
-    height: 300vh;
+    height: 400vh;
   }
   .profile-container,
   .upload-file-container,
