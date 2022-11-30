@@ -47,6 +47,7 @@ function App() {
     <div className="App">
       <Routes>
         <Route path='/' element={<Home userInfo={userInfo} setUserInfo={setUserInfo} isLoggedIn={isLoggedIn} setIsLoggedIn={setIsLoggedIn} />}></Route>
+        <Route path='/*' element={<Home userInfo={userInfo} setUserInfo={setUserInfo} isLoggedIn={isLoggedIn} setIsLoggedIn={setIsLoggedIn} />}></Route>
         <Route path='/Login' element={<Login userInfo={userInfo} setUserInfo={setUserInfo} isLoggedIn={isLoggedIn} setIsLoggedIn={setIsLoggedIn}/>}></Route>
         <Route path='/Signup' element={<Signup userInfo={userInfo} isLoggedIn={isLoggedIn}/>}></Route>
         <Route path='/Profile' element={<Profile userInfo={userInfo} setUserInfo={setUserInfo} isLoggedIn={isLoggedIn} setIsLoggedIn={setIsLoggedIn} />}></Route>
