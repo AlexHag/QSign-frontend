@@ -95,7 +95,7 @@ const Signup = (props) => {
                 required
                 />
 
-                <button className="form-button" type="submit" onClick={handleSubmit} id="btnAddTodo">Crete Account</button>
+                <button className="form-button" type="submit" onClick={handleSubmit} id="btnAddTodo">Create Account</button>
                 <p style={{color: "red"}}>{error}</p>
                 <p><Link to="/Login">Already have an account? Log in</Link></p>
         </form>
