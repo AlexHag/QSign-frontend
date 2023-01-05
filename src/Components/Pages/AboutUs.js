@@ -55,39 +55,16 @@ function AboutUs(props) {
               <h3>Who we are...</h3>
               <article className="aboutus-text">
                 <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Voluptatem accusantium, neque quas eveniet ad aliquid
-                  voluptate eaque fuga blanditiis nihil, doloribus obcaecati
-                  nemo dolore facilis asperiores quibusdam officia assumenda
-                  nulla quaerat perferendis nam molestiae, quam eius. Debitis,
-                  sed! Ab nobis asperiores voluptatibus architecto, laborum
-                  numquam odit magnam, esse exercitationem harum id officia
-                  doloremque cumque qui! Dolore unde sed illo, aspernatur itaque
-                  quam nihil voluptas distinctio mollitia at reprehenderit?
-                  Distinctio veniam, tempora modi culpa porro blanditiis cum,
-                  placeat aspernatur dicta voluptate provident atque quos dolor
-                  aliquid fugiat ipsa aliquam at animi dolorem, quibusdam amet?
-                  Quidem fugit quis nihil praesentium illo adipisci.
+                We are four software developers. Robin Öberg, Sareh Jalali, Alex Hagdahl and Carl Holmström currently working as consultants for &lt;/salt&gt;.
                 </p>
               </article>
               <article className="aboutus-text">
                 <h3>What we do...</h3>
                 <article className="aboutus-text">
                   <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Voluptatem accusantium, neque quas eveniet ad aliquid
-                    voluptate eaque fuga blanditiis nihil, doloribus obcaecati
-                    nemo dolore facilis asperiores quibusdam officia assumenda
-                    nulla quaerat perferendis nam molestiae, quam eius. Debitis,
-                    sed! Ab nobis asperiores voluptatibus architecto, laborum
-                    numquam odit magnam, esse exercitationem harum id officia
-                    doloremque cumque qui! Dolore unde sed illo, aspernatur
-                    itaque quam nihil voluptas distinctio mollitia at
-                    reprehenderit? Distinctio veniam, tempora modi culpa porro
-                    blanditiis cum, placeat aspernatur dicta voluptate provident
-                    atque quos dolor aliquid fugiat ipsa aliquam at animi
-                    dolorem, quibusdam amet? Quidem fugit quis nihil praesentium
-                    illo adipisci.
+                  Digital signatures is a paradigm shift. The world has changed and the technology is already there but is not widely being used.
+                  QSign's vision is to make the use of digital signatures available world-wide, simple and secure. Removing the need to trust each other by placing the trust in mathematics.
+
                   </p>
                 </article>
               </article>
